@@ -1,0 +1,22 @@
+Please spend 3-4 hours reviewing the application and it's code.
+
+What does the application do?
+The application check user's input text/word agains a database of correctly spelling words
+
+Does it follow best coding practice? If not what would you change?
+change some line of code
+
+
+How well does it display the Object Oriented design principles?
+change some line of code
+
+
+Can you identify design patterns it is using? How well is it using them? Are there better suited patterns for this application?
+MVC pattern is using
+
+
+To compile and run:
+
+mv SpellChecker spellchecker
+javac spellchecker/*.java spellchecker/models/*.java
+java -classpath "spellchecker/sqlite/sqlite.jar";. spellchecker.Launcher

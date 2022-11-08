@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sqlite1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spellchecker/spellchecker/sqlite/sqlite.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
