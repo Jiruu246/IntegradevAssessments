@@ -15,8 +15,8 @@ import java.util.UUID;
 
 public class Database implements IDatabase {
 
-  final String dbFilename = "test.db";
-  final String dbProtocol = "jdbc:sqlite:";
+  final String DB_FILENAME = "test.db";
+  final String DB_PROTOCOL = "jdbc:sqlite:";
 
   public Connection connection;
 
@@ -231,10 +231,10 @@ public class Database implements IDatabase {
   }
 
   public Connection getConnection() {
-    String fileName = dbFilename;
+
     String mainDir = System.getProperty("user.dir") + '/' + "spellchecker";
     String destinationDirectory =  mainDir + "/" + "db";
-    String url = dbProtocol + destinationDirectory + "/" + fileName;
+    String url = DB_PROTOCOL + destinationDirectory + "/" + DB_FILENAME;
 
     try {
       Connection conn = DriverManager.getConnection(url);
